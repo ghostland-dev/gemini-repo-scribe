@@ -26,7 +26,10 @@ const Header = () => {
           </a>
         </nav>
 
-        <Button className="gap-2 shadow-elegant hover:shadow-glow transition-all duration-300">
+        <Button 
+          className="gap-2 shadow-elegant hover:shadow-glow transition-all duration-300"
+          onClick={() => window.location.href = '/dashboard'}
+        >
           <Github className="h-4 w-4" />
           Se connecter avec GitHub
         </Button>

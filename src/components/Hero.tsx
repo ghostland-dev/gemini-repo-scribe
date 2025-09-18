@@ -42,6 +42,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="gap-2 bg-primary hover:bg-primary/90 text-white shadow-glow hover:shadow-glow/80 transition-all duration-300 text-lg px-8 py-4"
+              onClick={() => window.location.href = '/dashboard'}
             >
               <Github className="h-5 w-5" />
               Commencer gratuitement
